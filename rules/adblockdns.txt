@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-! Version: 20240722002324
-! Last modified: 2024/07/22 00:23:24
-! Blocked domains: 179536
+! Version: 20240722085554
+! Last modified: 2024/07/22 08:55:54
+! Blocked domains: 179555
 ! unBlocked domains: 47
 !
 ||re-confrm-acclockhelpcenter.000.pe^
@@ -5630,7 +5630,9 @@
 ||a.addskills.se^
 ||addthief.com^
 ||addthis.com^
-||addtoany.com^
+||static.addtoany.com^
+||stats.addtoany.com^
+||www.addtoany.com^
 ||images.addurance.com^
 ||addweb.ru^
 ||addwish.com^
@@ -13538,6 +13540,7 @@
 ||aprtx.com^
 ||info.aps.org^
 ||apsalar.com^
+||beacon.apsehick.date^
 ||apserver.net^
 ||apsis.com^
 ||static.ws.apsis.one^
@@ -31075,6 +31078,7 @@
 ||tr.notification.cetelem.fr^
 ||app.response.cetera.com^
 ||plans.ceteraretirement.com^
+||cetlwsf.top^
 ||cetma.it^
 ||cetrk.com^
 ||cetrodftt.com^
@@ -44000,6 +44004,7 @@
 ||df0pmigc8xs70.cloudfront.net^
 ||df80k0z3fi8zg.cloudfront.net^
 ||dfaikhkm.xyz^
+||dfan4.icu^
 ||dfapvmql-q.global.ssl.fastly.net^
 ||microsoft.dfautomotive.de^
 ||dfbertuah.com^
@@ -45873,6 +45878,7 @@
 ||adebis-dojyo.dojyo.jp^
 ||dokaboka.com^
 ||dokei777.com^
+||dokfrl.xyz^
 ||a8cv.dokoyorimo.com^
 ||testa8wifi.dokoyorimo.com^
 ||track.entry.dokoyorimo.com^
@@ -48118,6 +48124,7 @@
 ||e7-6dt.pages.dev^
 ||e702fa7de9d35c37.com^
 ||e732bfae2a.com^
+||e75d10b9.live^
 ||e77lmzbqou0n-a.akamaihd.net^
 ||fd0a73b2b2.e7b05975f9.com^
 ||e7z9t4x6a0v5mk3zo1a0xj2z7c6g8sa6js5z7s2c3h9x0s5fh3a6sjwb8q7m.xyz^
@@ -54693,6 +54700,7 @@
 ||faze40.com^
 ||faze47.com^
 ||faze5.com^
+||faze50.com^
 ||faze60.com^
 ||faze66.com^
 ||faze70.com^
@@ -55784,6 +55792,7 @@
 ||filmlush.com^
 ||smetrics.filmmagic.com^
 ||dragonfly.filmmakerfreedom.com^
+||sentry.filmnet.ir^
 ||vast.filmnet.ir^
 ||filmnice.com^
 ||filmobo.com^
@@ -56268,6 +56277,7 @@
 ||firersale.com^
 ||firesinfamous.com^
 ||analytics.firespring.com^
+||firest.info^
 ||firestarcreative.com^
 ||smetrics.firestonebpco.com^
 ||target.firestonebpco.com^
@@ -57441,6 +57451,7 @@
 ||fmi-imap.app^
 ||info.fminet.com^
 ||fmjjvb.xyz^
+||fmkipgm.icu^
 ||loader.fmkorea.com^
 ||t.fml.rip^
 ||fmlabsonline.com^
@@ -61646,6 +61657,7 @@
 ||gcumgu.xyz^
 ||gcwdq.com^
 ||gcwwsv.icu^
+||gcylkq.xyz^
 ||gcyzgld.com^
 ||tracking.gd.se^
 ||tracking.etidning.gd.se^
@@ -89290,6 +89302,7 @@
 ||kuyatim.com^
 ||kuydaftar.net^
 ||kuyhaa-me.pw^
+||kuyhaa.cc^
 ||ask.log.kuyun.com^
 ||config.kuyun.com^
 ||logonext.tv.kuyun.com^
@@ -94003,6 +94016,7 @@
 ||lsitenonrepeat.com^
 ||cirm.lsj.com^
 ||gcirm.lsj.com^
+||lsjazn.xyz^
 ||lsjne.com^
 ||lsma.beauty^
 ||1f58e9a0908a03f9717ab0338a35d33d.lsopas.pl^
@@ -94142,6 +94156,7 @@
 ||luciareptilehome.com^
 ||luciathebat.blogspot.com^
 ||analytics.lucid.app^
+||p.lucida.to^
 ||lucidcommerce.com^
 ||lucidel.com^
 ||luciditycuddle.com^
@@ -111562,6 +111577,7 @@
 ||ema.ofnutgo.com^
 ||ofphanpytor.com^
 ||ofpiplupon.com^
+||ofplredpogw.com^
 ||ofqopmnpia.com^
 ||ofracosmetics.fr^
 ||ofseedotom.com^
@@ -136152,6 +136168,7 @@
 ||schemeabsolutejanuary.com^
 ||www.schemml.de^
 ||scherapy.com^
+||api.privacy.schibsted.com^
 ||cis.schibsted.com^
 ||jssdk.pulse.schibsted.com^
 ||sdk.pulse.schibsted.com^
@@ -151851,6 +151868,7 @@
 ||teslaelon.live^
 ||teslafond.io^
 ||teslagiveaway.gift^
+||teslahome.io^
 ||teslarewards.us^
 ||teslatrading.org^
 ||nyrxcy.teslaweld.com^
@@ -179373,6 +179391,7 @@
 ||zvc.cc^
 ||zvetki.ru^
 ||zvetokr2hr8pcng09.com^
+||zvhlzb.xyz^
 ||zvhprab.com^
 ||track.msadcenter.zvjw.com^
 ||zvkytbjimbhk.com^
