@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist、AWAvenue Ads Rule、jiekouAD。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241206085839
-! Last modified: 2024/12/06 08:58:39
+! Version: 20241206161644
+! Last modified: 2024/12/06 16:16:44
 ! Blocked Filters: 41480
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
@@ -4287,6 +4287,7 @@
 ###story_ad
 ###story_ads
 ###story_bottom_ddb_0
+###story_bottom_ddb_1
 ###story_top_ddb_0
 ###storyad2
 ###stripadv
@@ -15128,6 +15129,7 @@
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##bottomadblock
 ##button[data-openuri="|BTN_URL|"]
 ##button[onclick*=".xacg.info/"]
@@ -28951,7 +28953,6 @@ cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cna.com.tw,ettoday.net##.ad_970
 cnbeta.com.tw,qudong.com##a[href*=".ctyun."]
 cnbeta.com.tw,thinkphp.cn##.cooperation
@@ -31817,7 +31818,6 @@ in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,bdsmx.tube,inporn.com#
 in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,bdsmx.tube,inporn.com##section[is-footer-banners]
 in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,inporn.com##.video-page__content > div.right
 in.fo,moovitapp.com#@#.ads-banner
-in.mashable.com#$?#.additional-info > div.additional-container:has(> p:contains(Advertisement)) { display: none !important; }
 indaily.com.au,posemaniacs.com##.h-\[250px\]
 indaily.com.au,thenewdaily.com.au##.h-\[100px\]
 independent.co.uk,standard.co.uk,the-independent.com###stickyFooterRoot
