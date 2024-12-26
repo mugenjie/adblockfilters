@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20241226085359
-! Last modified: 2024/12/26 08:53:59
+! Version: 20241226161528
+! Last modified: 2024/12/26 16:15:28
 ! Blocked domains: 5611
 ! unBlocked domains: 16
 !
@@ -38,6 +38,7 @@
 ||1010pic.com^
 ||adm.10jqka.com.cn^
 ||stat.10jqka.com.cn^
+||soft.110route.com^
 ||1.11130.com.cn^
 ||polska-olx.111455.xyz^
 ||oss-asq-static.11222.cn^
@@ -354,6 +355,7 @@
 ||58isg.cn^
 ||58mingri.cn^
 ||595image.com^
+||595tuchuang.com^
 ||59gt.cn^
 ||5gdonuts.cn^
 ||d1.5h.com^
@@ -405,7 +407,6 @@
 ||count.7m.com.cn^
 ||user-analysis.7moor.com^
 ||cdn.7nsc.cn^
-||7vtrg.xyz^
 ||cp.7y7.com^
 ||80juqing.com^
 ||80vn.cn^
@@ -475,7 +476,6 @@
 ||smetrics.abercrombie.cn^
 ||abjalrq.cn^
 ||discover.absciex.com.cn^
-||disk.accord1key.cn^
 ||apilog-web.acfun.cn^
 ||apilog.app.acfun.cn^
 ||jscode.acg68.com^
@@ -774,11 +774,11 @@
 ||bd-a-1.appmobile.cn^
 ||bd-china-1.appmobile.cn^
 ||cnbd1.appmobile.cn^
+||jbdch1.appmobile.cn^
 ||st.appsad.cn^
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||appuu.cn^
-||static.appbox.apuslauncher.com^
 ||www.aqianniao.com^
 ||vinted-pl-gj32d.aqiwen.top^
 ||a.armystar.com^
@@ -1010,6 +1010,7 @@
 ||bangqidq.com^
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
+||a.baomihua.com^
 ||resource.baomihua.com^
 ||bartender.cc^
 ||webpage.batianhu.cn^
@@ -1535,6 +1536,7 @@
 ||tx2play1.douyucdn.cn^
 ||tx2play2.douyucdn.cn^
 ||dotcounter.douyutv.com^
+||dpjzzgw.cn^
 ||drivethelife.com^
 ||wurq5hzgcixkzmc8tlmqag.on.drv.tw^
 ||dshrx.com^
@@ -1740,6 +1742,7 @@
 ||a1.firefoxchina.cn^
 ||first-vay.com^
 ||device.fishmobi.com^
+||fiwyjar.cn^
 ||fjtroip.cn^
 ||adv.fjtv.net^
 ||flash.cn^
@@ -1765,7 +1768,6 @@
 ||fotao9.com^
 ||frontier100-toutiao-lf.fqnovel.com^
 ||fqxkj.cn^
-||fraudmetrix.cn^
 ||freeth.online^
 ||fsijngnfsfk.com^
 ||fsjjrbz.cn^
@@ -1908,8 +1910,8 @@
 ||adsense.google.cn^
 ||adservice.google.com^
 ||pagead-googlehosted.l.google.com^
+||partnerad.l.google.com^
 ||ssl-google-analytics.l.google.com^
-||static-doubleclick-net.l.google.com^
 ||www-google-analytics.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||clickserver.googleads.com^
@@ -2147,6 +2149,7 @@
 ||jaccs-erging.hlxtcl.cn^
 ||hly.com^
 ||hmcvs.cn^
+||hnlphr.cn^
 ||hnltcw.com^
 ||hnnzwhyy.com^
 ||hnol.net^
@@ -2316,11 +2319,11 @@
 ||ignslkgs.com^
 ||ihclam.cn^
 ||ihtqqws.cn^
+||ad.iii.co.uk^
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijgocb.cn^
 ||ijinshan.com^
-||daima.ijq.tv^
 ||a3.ikafan.com^
 ||ili100.cn^
 ||ilkwork.com^
@@ -2411,7 +2414,6 @@
 ||tracker.sns.iqiyi.com^
 ||yuedu.iqiyi.com^
 ||am.g.ireader.com^
-||irs01.com^
 ||irs03.com^
 ||irulws.xyz^
 ||iscrv.com^
@@ -2850,6 +2852,7 @@
 ||open.kwaizt.com^
 ||kwdgudw.cn^
 ||jaccs-antiian.kxdkr.cn^
+||ky595images.com^
 ||kzjkexn.cn^
 ||l7u3kf.cn^
 ||laawmmy.cn^
@@ -2948,6 +2951,7 @@
 ||v88.live800.com^
 ||mkadsearch.lizhifm.com^
 ||ljrtb.cn^
+||a.llysc.cn^
 ||lm665.com^
 ||bffbdo.lmsae.cn^
 ||lmwmm.com^
@@ -2970,8 +2974,8 @@
 ||lowadec.cn^
 ||lpmzt.cn^
 ||lpqhkj.cn^
-||lqhqu.cn^
 ||lrswl.com^
+||a1.lshou.com^
 ||lshuaibin.cn^
 ||news-log.lsttnews.com^
 ||lufax.com^
@@ -3298,6 +3302,7 @@
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
 ||logs.nandu.com^
+||fp.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -3334,7 +3339,6 @@
 ||udbdf-v2.nimo.tv^
 ||ylog.nimo.tv^
 ||down.nishuoa.com^
-||nithisp.cn^
 ||taobao.niucha.ren^
 ||p.niudashu.com^
 ||rjs.niuxgame77.com^
@@ -3449,7 +3453,6 @@
 ||palm-ad.cn^
 ||vip.panggugu.com^
 ||panyh123456.cn^
-||paonancs.cn^
 ||papayamobile.com^
 ||bt1.patexplorer.com^
 ||pbaiyho.cn^
@@ -4013,7 +4016,6 @@
 ||sdvfvgj.cn^
 ||1640831964042.se-life.cn^
 ||seaholly.cn^
-||www.secede.cn^
 ||sellfox.com^
 ||senbiaojita.com^
 ||sensorsdata.cn^
@@ -4575,7 +4577,6 @@
 ||www.toutiaopage.com^
 ||tovppl.cn^
 ||towmfs.com^
-||hpefjecf.tqhmu.cn^
 ||track001.com^
 ||trackingio.com^
 ||tradplus.cn^
@@ -5263,7 +5264,6 @@
 ||ygwdai.cn^
 ||ygxgk.cn^
 ||ygzqlnt.cn^
-||yhbsk.cn^
 ||yhjccj.cn^
 ||data.yhydl.com^
 ||yhz18.com^
@@ -5460,7 +5460,6 @@
 ||adapi.yynetwk.com^
 ||yystzl.cn^
 ||yywridi.cn^
-||yzkzixun.com^
 ||yznwyng.cn^
 ||yktj.yzz.cn^
 ||zampda.net^
@@ -5525,6 +5524,7 @@
 ||zhuozhongfangshui.cn^
 ||fdfda.zhuzhai.com^
 ||zhzzx.com^
+||znrq.zifwxq.cn^
 ||ad.zijieapi.com^
 ||ads3-normal.zijieapi.com^
 ||ads3-normal-hl.zijieapi.com^
