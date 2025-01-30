@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250130085227
-! Last modified: 2025/01/30 08:52:27
-! Blocked domains: 6198
+! Version: 20250130161448
+! Last modified: 2025/01/30 16:14:48
+! Blocked domains: 6204
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -221,6 +221,7 @@
 ||mvconf.f.360.cn^
 ||openbox.mobilem.360.cn^
 ||papi.look.360.cn^
+||pub.se.360.cn^
 ||qurl.f.360.cn^
 ||s.360.cn^
 ||sd.360.cn^
@@ -780,6 +781,7 @@
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||appuu.cn^
+||static.appbox.apuslauncher.com^
 ||www.aqianniao.com^
 ||vinted-pl-gj32d.aqiwen.top^
 ||aqvi.cn^
@@ -997,7 +999,6 @@
 ||baifendian.com^
 ||baigm.com^
 ||www.baihe.com^
-||baihuwang.com^
 ||baike.biz^
 ||baitaiz.com^
 ||baixing.com^
@@ -1013,8 +1014,8 @@
 ||q.baminw.com.cn^
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
+||resource.baomihua.com^
 ||bartender.cc^
-||etwvvde.baspk.cn^
 ||webpage.batianhu.cn^
 ||baxbyfn.cn^
 ||baycode.cn^
@@ -1248,7 +1249,7 @@
 ||dispatcher-bsy.c360dn.com^
 ||download.caihong.com^
 ||apollo.caixin.com^
-||pinggai5.caixin.com^
+||gg.caixin.com^
 ||promote.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
@@ -1465,10 +1466,10 @@
 ||counsellor.gov.cn^
 ||course-forge.com^
 ||adt.cpatrk.net^
+||ap.cpatrk.net^
 ||me.cpatrk.net^
 ||tdsdk.cpatrk.net^
 ||global.cphi-china.cn^
-||usps.cpm-yrytz.top^
 ||agapi.cqjjb.cn^
 ||cbjg.cqnews.net^
 ||cqtlimi.cn^
@@ -1544,7 +1545,6 @@
 ||datamaster.com.cn^
 ||matomo.datasanalytics.com^
 ||datayi.cn^
-||jc1.dayfund.com.cn^
 ||bun1.dayi.org.cn^
 ||images.dayoo.com^
 ||dazhantai.com^
@@ -2041,7 +2041,7 @@
 ||gcbflvx.cn^
 ||gccnntq.cn^
 ||gknffn.gcdsz.cn^
-||gdtcw.cn^
+||usps.gdtcw.cn^
 ||gdtimg.com^
 ||canadapost-postescanada.gdwsw.cn^
 ||t.geedai.com^
@@ -2139,6 +2139,7 @@
 ||adservice.google.com^
 ||pagead-googlehosted.l.google.com^
 ||ssl-google-analytics.l.google.com^
+||static-doubleclick-net.l.google.com^
 ||www-google-analytics.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||clickserver.googleads.com^
@@ -2208,7 +2209,6 @@
 ||guzsjdl.cn^
 ||gvt2-cn.com^
 ||gw2cddpt2hao.asia^
-||gw2cddpt2hao.cloud^
 ||gwmrb.cn^
 ||gwrpceo.cn^
 ||gxgbvmg.cn^
@@ -2238,6 +2238,7 @@
 ||haixiutv.com^
 ||halct.cn^
 ||mo.haloapps.cn^
+||haloapps.com^
 ||g.haluoha.com^
 ||go.hangzhou.com.cn^
 ||hanlanad.com^
@@ -2328,7 +2329,6 @@
 ||hgjxp.cn^
 ||www.smbc-card.ardom.hgktql.cn^
 ||wwwv.smbc-card.hometic.hgktwx.cn^
-||aeon-pointed.hgnihe.cn^
 ||hhttm.top^
 ||hhbs.hhu.edu.cn^
 ||sdd.hi1718.com^
@@ -2783,7 +2783,6 @@
 ||jhzfwl.cn^
 ||api.jialiangad.com^
 ||8961.jianbihua.com^
-||wj.jiancai365.cn^
 ||ads.jianchiapp.com^
 ||xomk.jiangjunmh.top^
 ||1.jiangzheba.com^
@@ -3142,7 +3141,6 @@
 ||wap1.laogu.wang^
 ||wap2.laogu.wang^
 ||laomaotao.net^
-||sensors.larkplayerapp.com^
 ||images.newsletter.larksuite.com^
 ||un1.lawyernet.cn^
 ||jmacs-m.lazada.co.id^
@@ -3266,7 +3264,6 @@
 ||webtarget.logitechg.com.cn^
 ||lomark.cn^
 ||www.loprr.cn^
-||lostheaven.com.cn^
 ||lotuseed.com^
 ||game.loveota.com^
 ||dlimg.lovfp.com^
@@ -3604,10 +3601,12 @@
 ||m.mxguan.com^
 ||api.wx.my7v.com^
 ||apiyd.my91app.com^
+||iuou.myadobe.cn^
 ||a.myapp.com^
 ||s.dd.myapp.com^
 ||sqdd.myapp.com^
 ||mycleanmymac.com^
+||mydati.com^
 ||cdn.adm.myhayo.com^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^
@@ -3639,6 +3638,8 @@
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
 ||nanbeimfycdn.com^
+||1.nanrenwo.net^
+||fp.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -4259,6 +4260,7 @@
 ||a2.rabbitpre.com^
 ||event.raise3d.cn^
 ||rawmtft.cn^
+||rayjump.com^
 ||bespoke-analytics.razerapi.com^
 ||rbioclv.cn^
 ||rbrbr88p.cn^
@@ -4310,6 +4312,7 @@
 ||static.rongkao.com^
 ||rosettahome.cn^
 ||rpahyhn.cn^
+||rpkcqtf.cn^
 ||rptegnf.cn^
 ||rsvqlz.cn^
 ||rtbasia.com^
@@ -4381,7 +4384,6 @@
 ||1640831964042.se-life.cn^
 ||analytics.apps.seabroadnet.com^
 ||sellfox.com^
-||senbiaojita.com^
 ||sensorsdata.cn^
 ||logstat.t.sfht.com^
 ||wwwv.smbc-card.harmonize.sfhzl.cn^
@@ -4394,6 +4396,7 @@
 ||shankejingling.com^
 ||shaohun.cn^
 ||sharele.cn^
+||z.shavsl.com^
 ||sc.shayugg.com^
 ||shengminsy.com^
 ||www.shengxinwang.net^
@@ -4449,8 +4452,6 @@
 ||pfpip.sina.com^
 ||ad.sina.com.cn^
 ||ad2.sina.com.cn^
-||ad3.sina.com.cn^
-||ad4.sina.com.cn^
 ||adbox.sina.com.cn^
 ||adm.leju.sina.com.cn^
 ||beacon.sina.com.cn^
@@ -4460,9 +4461,14 @@
 ||d0.sina.com.cn^
 ||d00.sina.com.cn^
 ||d1.sina.com.cn^
+||d2.sina.com.cn^
 ||d3.sina.com.cn^
+||d4.sina.com.cn^
 ||d5.sina.com.cn^
+||d6.sina.com.cn^
 ||d7.sina.com.cn^
+||d8.sina.com.cn^
+||d9.sina.com.cn^
 ||dcads.sina.com.cn^
 ||emarketing.sina.com.cn^
 ||int.dpool.sina.com.cn^
@@ -4481,8 +4487,6 @@
 ||woocall.sina.com.cn^
 ||pfp.sina.net^
 ||ad.us.sinaimg.cn^
-||d1.sinaimg.cn^
-||d6.sinaimg.cn^
 ||d8.sinaimg.cn^
 ||hits.sinajs.cn^
 ||newspush.sinajs.cn^
@@ -4644,7 +4648,6 @@
 ||steamproxy.net^
 ||stg8.com^
 ||stgowan.com^
-||stnew.xyz^
 ||info.stockstar.com^
 ||metric.stockstar.com^
 ||same.stockstar.com^
@@ -4674,6 +4677,7 @@
 ||test.surepush.cn^
 ||bdunion1.suxiazai.com^
 ||download.suxiazai.com^
+||steam.suzhouren.cn^
 ||mscs.svaeuzh.cn^
 ||svdpgmt.cn^
 ||analytics.sve.cc^
@@ -4864,13 +4868,13 @@
 ||inpost-pl-pacid273jks.tejiamai.top^
 ||teleagrme.cn^
 ||teleaprme.cn^
-||telegcpqm.cn^
 ||telegrpqm.cn^
 ||telegrpzn.cn^
 ||telegvim.cn^
 ||telegvpqm.cn^
 ||telegzpqm.cn^
 ||telepcvne.cn^
+||telepzow.cn^
 ||teleqrezm.cn^
 ||teleqvom.cn^
 ||teleqxem.cn^
@@ -5389,6 +5393,7 @@
 ||zgzxs.weathercn.com^
 ||webdissector.com^
 ||log.webnovel.com^
+||webspinz.com^
 ||webterren.com^
 ||dads.wedobest.com.cn^
 ||event.wedobest.com.cn^
@@ -5462,6 +5467,7 @@
 ||analytics.woozooo.com^
 ||statics.woozooo.com^
 ||www.world-flags.cn^
+||www.wowostar.cn^
 ||v1.wphonelife.com^
 ||ad.docer.wps.cn^
 ||dyn.wps.cn^
