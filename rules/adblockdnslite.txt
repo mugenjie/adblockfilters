@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250204085332
-! Last modified: 2025/02/04 08:53:32
-! Blocked domains: 6207
+! Version: 20250204161534
+! Last modified: 2025/02/04 16:15:34
+! Blocked domains: 6213
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -136,6 +136,7 @@
 ||js.1688988.com^
 ||tz.1688988.com^
 ||cvda.17173.com^
+||log1.17173.com^
 ||stat.v.17173.com^
 ||vda.17173.com^
 ||web.17173.com^
@@ -285,6 +286,7 @@
 ||classic.39health.com^
 ||39jz.com^
 ||jwz.3conline.com^
+||fc.3dmgame.com^
 ||ga1.3dmgame.com^
 ||c02.3dwwwgame.com^
 ||d3d.3dwwwgame.com^
@@ -803,7 +805,6 @@
 ||somni.australia.cn^
 ||so.auto999.cn^
 ||activity.app.autohome.com.cn^
-||adproxy.autohome.com.cn^
 ||al.autohome.com.cn^
 ||applogapi.autohome.com.cn^
 ||c.autohome.com.cn^
@@ -811,8 +812,10 @@
 ||ftwo-feedback.autohome.com.cn^
 ||ftwo-receiver.autohome.com.cn^
 ||idm.api.autohome.com.cn^
+||leads.autohome.com.cn^
 ||public.app.autohome.com.cn^
 ||push.app.autohome.com.cn^
+||rd.autohome.com.cn^
 ||stats.autohome.com.cn^
 ||adm2.autoimg.cn^
 ||adm3.autoimg.cn^
@@ -1027,6 +1030,7 @@
 ||event.bblmw.com^
 ||aod-image-material.cdn.bcebos.com^
 ||baiducom.bj.bcebos.com^
+||bdyingxiaocms.cdn.bcebos.com^
 ||cpu-baidu-com-block.cdn.bcebos.com^
 ||dingbu.bj.bcebos.com^
 ||dsp-idea.cdn.bcebos.com^
@@ -1962,6 +1966,7 @@
 ||bd1.flfgw.cn^
 ||flstudiochina.com^
 ||fluxy.cn^
+||pid.fly160.com^
 ||api-flow.flyme.cn^
 ||bro.flyme.cn^
 ||madx.flyme.cn^
@@ -2042,7 +2047,6 @@
 ||t.geedai.com^
 ||log.geetest.com^
 ||g.gegeyingshi.com^
-||gejhhh.cn^
 ||genrena.com^
 ||image.gentags.com^
 ||www.gentags.com^
@@ -2133,9 +2137,7 @@
 ||adsense.google.cn^
 ||adservice.google.com^
 ||pagead-googlehosted.l.google.com^
-||s0-2mdn-net.l.google.com^
 ||ssl-google-analytics.l.google.com^
-||static-doubleclick-net.l.google.com^
 ||www-google-analytics.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||clickserver.googleads.com^
@@ -2233,7 +2235,6 @@
 ||haixiutv.com^
 ||halct.cn^
 ||mo.haloapps.cn^
-||haloapps.com^
 ||g.haluoha.com^
 ||go.hangzhou.com.cn^
 ||hanlanad.com^
@@ -2392,6 +2393,7 @@
 ||gentian-frd.hjapi.com^
 ||resu8.hjfile.cn^
 ||hjpqt.cn^
+||metrics.hktdc.com^
 ||www.smbc-card.ceter.hlktnk.cn^
 ||wwwv.smbc-card.vend.hlktrx.cn^
 ||adminuser.hlntqr.cn^
@@ -2408,7 +2410,6 @@
 ||protection.hnpolice.com^
 ||hnsykly.cn^
 ||hntkgpd.cn^
-||hnuniversal.com^
 ||ad.holaq.com^
 ||pay.holaq.com^
 ||smetrics.hollisterco.cn^
@@ -2477,9 +2478,9 @@
 ||hwa.his.huawei.com^
 ||httpdns.huaweicloud.com^
 ||matomo.huazhi.cloud^
+||matomocdn.huazhi.cloud^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
-||hufajushi.top^
 ||huimee.net^
 ||huishenghuiying.com.cn^
 ||mc.hujiang.com^
@@ -2580,7 +2581,6 @@
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijinshan.com^
-||daima.ijq.tv^
 ||ijvla.cn^
 ||ili100.cn^
 ||ilkwork.com^
@@ -2624,6 +2624,7 @@
 ||gw.innotechx.com^
 ||inping.com^
 ||click.inplayable.com^
+||ixvdfqi.inqku.cn^
 ||insenz.com^
 ||ainu.intel.cn^
 ||elqtrk.intel.cn^
@@ -2758,7 +2759,6 @@
 ||orbit.jd.com^
 ||policy.jd.com^
 ||skdisplay.jd.com^
-||stat.m.jd.com^
 ||u-x.jd.com^
 ||union.click.jd.com^
 ||union.m.jd.com^
@@ -2910,6 +2910,7 @@
 ||moupdate1.kingsoft-office-service.com^
 ||up.wps.kingsoft.com^
 ||kinleung.cn^
+||kiophsx9.sa.com^
 ||smetrics.kioxia.com.cn^
 ||kivo.fun^
 ||wwwv.smbc-card.pitith.kjkjtdwh.cn^
@@ -3040,6 +3041,9 @@
 ||dw-collect.ksosoft.com^
 ||dw-online.ksosoft.com^
 ||ic.ksosoft.com^
+||mdbquj.ksoyw.cn^
+||nddmukby.ksoyw.cn^
+||xldqxwdmew.ksoyw.cn^
 ||api.kingdata.ksyun.com^
 ||hdns.ksyun.com^
 ||kszvmqo.cn^
@@ -3420,6 +3424,7 @@
 ||microad-cn.com^
 ||microad.jp^
 ||stat.microvirt.com^
+||pylon.micstatic.com^
 ||plausible.midway.run^
 ||track.midway.run^
 ||app.log.nf.migu.cn^
@@ -3624,7 +3629,6 @@
 ||redpaper-10006092.cos.myqcloud.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||analytics.api.myqnapcloud.cn^
-||nsabiu.myshoplaza.com^
 ||saadsfds7.myshoplaza.com^
 ||salewashop-pl.myshoplaza.com^
 ||salewashopiing.myshoplaza.com^
@@ -3640,6 +3644,7 @@
 ||aries.mzres.com^
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
+||fp.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -3688,6 +3693,7 @@
 ||nlyuuy.cn^
 ||nmgyllh.cn^
 ||nmrdnqn.cn^
+||tracking.novabeyond.com^
 ||web.novogene.com^
 ||a.nowscore.com^
 ||z.nowscore.com^
@@ -4217,6 +4223,7 @@
 ||qtmdzsj.cn^
 ||wwwv.smbc-card.cuption.qtqht.cn^
 ||qcc.qualcomm.com^
+||qcc.qccgeo.qualcomm.com^
 ||quanmama.com^
 ||rhtc.quanminyouxi.cn^
 ||adtrack.quark.cn^
@@ -4477,6 +4484,7 @@
 ||int.dpool.sina.com.cn^
 ||interest.mix.sina.com.cn^
 ||log.mix.sina.com.cn^
+||matwbp.iask.sina.com.cn^
 ||pfp.sina.com.cn^
 ||r.dmp.sina.com.cn^
 ||s.img.mix.sina.com.cn^
@@ -4494,7 +4502,6 @@
 ||hits.sinajs.cn^
 ||newspush.sinajs.cn^
 ||rs.sinajs.cn^
-||simg.sinajs.cn^
 ||tjs.sjs.sinajs.cn^
 ||sinawap.com^
 ||siom.ac.cn^
@@ -4614,6 +4621,7 @@
 ||click.hd.sohu.com.cn^
 ||pb.hd.sohu.com.cn^
 ||643108e7617ef.cdn.sohucs.com^
+||smetrics.solidigmtech.com.cn^
 ||smetrics.solidigmtechnology.cn^
 ||gg.sonhoo.com^
 ||sc.sonystyle.com.cn^
@@ -4671,6 +4679,7 @@
 ||ossup.suning.com^
 ||ssac.suning.com^
 ||tad.suning.com^
+||th.suning.com^
 ||sunriseoutdoor.cn^
 ||suo.im^
 ||superads.cn^
@@ -4871,14 +4880,12 @@
 ||inpost-pl-pacid273jks.tejiamai.top^
 ||teleagrme.cn^
 ||teleaprme.cn^
-||telegrpqm.cn^
 ||telegrpzn.cn^
 ||telegvim.cn^
 ||telegvpqm.cn^
 ||telegzpqm.cn^
 ||telepcvne.cn^
 ||telepzow.cn^
-||teleqrezm.cn^
 ||teleqvom.cn^
 ||televpqm.cn^
 ||telezgrme.cn^
@@ -5010,6 +5017,7 @@
 ||analy.tuniu.cn^
 ||tusdk.com^
 ||tutuapp.com^
+||smetrics.tuvsud.cn^
 ||tuvtpxp.cn^
 ||tuxi.com.cn^
 ||appwall.tv2phone.cn^
@@ -5137,9 +5145,7 @@
 ||dl.uu.cc^
 ||game.subway.uu.cc^
 ||in1.feed.uu.cc^
-||uu22112.com^
 ||uu22662.com^
-||uu593.com^
 ||uugaa.com^
 ||uulucky.com^
 ||uunfybw.cn^
@@ -5800,7 +5806,6 @@
 ||oimagea2.ydstatic.com^
 ||bdm.ye-su.cn^
 ||ir.mail.yeah.net^
-||yeahmobi.com^
 ||abc.yebaike.com^
 ||ncz.yeepay.com^
 ||a.yellowurl.cn^
@@ -6034,6 +6039,7 @@
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
 ||api-analytics-us3.zepp.com^
+||app-analytics.zepp.com^
 ||app-analytics-de.zepp.com^
 ||app-analytics-ru.zepp.com^
 ||app-analytics-sg.zepp.com^
