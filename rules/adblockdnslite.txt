@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250208085250
-! Last modified: 2025/02/08 08:52:50
-! Blocked domains: 6195
+! Version: 20250208161403
+! Last modified: 2025/02/08 16:14:03
+! Blocked domains: 6205
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -360,7 +360,6 @@
 ||v16.56.com^
 ||www.56.com^
 ||3.5646.cn^
-||dl.1003b.56a.com^
 ||56fba.cn^
 ||adshow.58.com^
 ||brandshow.58.com^
@@ -395,6 +394,7 @@
 ||t1.612.com^
 ||m5.66077.cn^
 ||6669667.com^
+||1.66law.cn^
 ||6711.com^
 ||6789.net^
 ||67it.com^
@@ -467,6 +467,8 @@
 ||9800.com^
 ||whfpbc.99.com.cn^
 ||w18.9939.com^
+||a1.99933.cn^
+||a1.99966.cn^
 ||999bb222ww.com^
 ||999d.com^
 ||999db.cn^
@@ -759,7 +761,6 @@
 ||antarctic.com^
 ||api.antibanads.com^
 ||anysdk.com^
-||aogk88.asia^
 ||aokkwzg.cn^
 ||aoqinglv.cn^
 ||app-analytics-services.com^
@@ -1014,7 +1015,8 @@
 ||q.baminw.com.cn^
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
-||resource.baomihua.com^
+||a.baomihua.com^
+||djs.baomihua.com^
 ||bartender.cc^
 ||webpage.batianhu.cn^
 ||baxbyfn.cn^
@@ -1031,6 +1033,7 @@
 ||event.bblmw.com^
 ||aod-image-material.cdn.bcebos.com^
 ||baiducom.bj.bcebos.com^
+||bdyingxiaocms.cdn.bcebos.com^
 ||cpu-baidu-com-block.cdn.bcebos.com^
 ||dingbu.bj.bcebos.com^
 ||dsp-idea.cdn.bcebos.com^
@@ -1211,7 +1214,6 @@
 ||btsgroup.cn^
 ||btyou.com^
 ||beijing.buzhi5.com^
-||canadapost-postescanada.bvkx.cn^
 ||bvubasnf.com^
 ||ad.bwton.com^
 ||dlogs.bwton.com^
@@ -1239,7 +1241,6 @@
 ||log-api.pangolin-sdk-toutiao-b.com.bytedns1.com^
 ||log-api.pangolin-sdk-toutiao.com.bytedns1.com^
 ||api.bytegle.tech^
-||lf1-cdn-tos.bytegoofy.com^
 ||p1-feedback.byteimg.com^
 ||p3-tt.byteimg.com^
 ||p6-ad-sign.byteimg.com^
@@ -1248,9 +1249,8 @@
 ||b1.c1km4.com^
 ||dispatcher.c360dn.com^
 ||dispatcher-bsy.c360dn.com^
-||apollo.caixin.com^
+||download.caihong.com^
 ||gg.caixin.com^
-||pinggai5.caixin.com^
 ||promote.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
@@ -1468,7 +1468,6 @@
 ||counsellor.gov.cn^
 ||course-forge.com^
 ||adt.cpatrk.net^
-||ap.cpatrk.net^
 ||me.cpatrk.net^
 ||tdsdk.cpatrk.net^
 ||agapi.cqjjb.cn^
@@ -1511,6 +1510,7 @@
 ||cy8w.com^
 ||ad.cyapi.cn^
 ||cyhbrjf.cn^
+||a1.cyyangqiguan.com^
 ||c1.czcol.cn^
 ||czouthy.cn^
 ||czresus.cn^
@@ -1543,6 +1543,7 @@
 ||dashet.com^
 ||datacaciques.com^
 ||datamaster.com.cn^
+||matomo.datasanalytics.com^
 ||datayi.cn^
 ||jc1.dayfund.com.cn^
 ||bun1.dayi.org.cn^
@@ -1800,6 +1801,7 @@
 ||dzd9.cn^
 ||dzfkxq.cn^
 ||dzuht.cn^
+||ad.dzwww.com^
 ||app.acm.dzwww.com^
 ||api.e-toys.cn^
 ||e4l4.com^
@@ -1840,6 +1842,7 @@
 ||ecudsc.cn^
 ||ediuschina.com^
 ||eexlgyn.cn^
+||eeyy.com^
 ||metrics.egencia.cn^
 ||egrent.cn^
 ||plugin-check.egret.com^
@@ -1919,6 +1922,7 @@
 ||hugelog.fcbox.com^
 ||fcqztan.cn^
 ||fdhvczd.cn^
+||1.feihua.com^
 ||wmeng.feihuadns.com^
 ||feitian001.com^
 ||stats.feitianma.com^
@@ -2191,6 +2195,7 @@
 ||fbapi.guguread.com^
 ||guitarpro.cc^
 ||gujkj.cn^
+||1.gunsuo.com^
 ||guowaidiaocha.com^
 ||mo.gushiji.cc^
 ||abcdcfasda.gushiwen.cn^
@@ -2772,6 +2777,7 @@
 ||jhzfwl.cn^
 ||api.jialiangad.com^
 ||8961.jianbihua.com^
+||wj.jiancai365.cn^
 ||ads.jianchiapp.com^
 ||xomk.jiangjunmh.top^
 ||1.jiangzheba.com^
@@ -2908,6 +2914,7 @@
 ||kkkaii.cn^
 ||houyi.kkmh.com^
 ||ipv4.kkmh.com^
+||affiliate.klook.com^
 ||kmgfjc.cn^
 ||ykkvnoxal.kmhul.cn^
 ||kmpxq.cn^
@@ -3129,7 +3136,6 @@
 ||wap1.laogu.wang^
 ||wap2.laogu.wang^
 ||laomaotao.net^
-||sensors.larkplayerapp.com^
 ||images.newsletter.larksuite.com^
 ||un1.lawyernet.cn^
 ||jmacs-m.lazada.co.id^
@@ -3239,6 +3245,7 @@
 ||litchiads.com^
 ||liujiahao6.cn^
 ||v88.live800.com^
+||a.llysc.cn^
 ||lm665.com^
 ||bffbdo.lmsae.cn^
 ||lmwmm.com^
@@ -3614,8 +3621,6 @@
 ||redpaper-10006092.cos.myqcloud.com^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||analytics.api.myqnapcloud.cn^
-||nsabiu.myshoplaza.com^
-||saadsfds7.myshoplaza.com^
 ||analytics.myshoptago.com^
 ||gafxa.code.mytanwan.com^
 ||ldpgl.code.mytanwan.com^
@@ -3627,6 +3632,7 @@
 ||aries.mzres.com^
 ||yiyuan.nagezan.net^
 ||ytapi1.nagezan.net^
+||1.nanrenwo.net^
 ||m.nanyangqiaoxiang.cn^
 ||dl.natgo.cn^
 ||nbfieef.cn^
@@ -3905,7 +3911,6 @@
 ||ssp.putaojiu.com^
 ||apple.pvxt.net^
 ||dm.pw0.cn^
-||pw2ct1.asia^
 ||pxhuiben.com^
 ||cdn.pyadx.com^
 ||pypwxvo.cn^
@@ -4318,7 +4323,6 @@
 ||rz261.cn^
 ||rzfdbsn.cn^
 ||rzflhxn.cn^
-||rzlib.net^
 ||rznscya.cn^
 ||rzsgxmm.cn^
 ||s11.cn^
@@ -4360,9 +4364,7 @@
 ||scru.cn^
 ||statscollector.sd-rtn.com^
 ||sd6hon.cn^
-||sdjkbcjksbdsvv.com^
 ||sdk.sdkbalance.com^
-||sdkjkbsjkbvjkscv.com^
 ||adrs.sdo.com^
 ||dwtracking.sdo.com^
 ||reportsk.web.sdo.com^
@@ -4386,7 +4388,6 @@
 ||shankejingling.com^
 ||shaohun.cn^
 ||sharele.cn^
-||z.shavsl.com^
 ||sc.shayugg.com^
 ||shengminsy.com^
 ||www.shengxinwang.net^
@@ -4681,6 +4682,7 @@
 ||fr.swissquote.cn^
 ||cgrvtlhz.swkxh.cn^
 ||opohpmcdz.swkxh.cn^
+||cdn0.sxhjty.cn^
 ||sxk9m8x.cn^
 ||sxundrh.cn^
 ||sanalytics.sydneyuniversity.cn^
@@ -4865,9 +4867,14 @@
 ||inpost-pl-pacid273jks.tejiamai.top^
 ||teleagrme.cn^
 ||teleaprme.cn^
+||telegrpzn.cn^
+||telegvim.cn^
 ||telegvpqm.cn^
 ||telegzpqm.cn^
+||telepcvne.cn^
+||telepzow.cn^
 ||televpqm.cn^
+||telezgrme.cn^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
 ||apd-pcdnwxstat.teg.tencent-cloud.net^
@@ -5080,6 +5087,7 @@
 ||uegsjnk.com^
 ||uerbgnkas.com^
 ||uerzyr.cn^
+||ueumdkc.cn^
 ||ugdtimg.com^
 ||uhabo.com^
 ||bdjs.uimg.cn^
@@ -5400,6 +5408,7 @@
 ||api-z.weidian.com^
 ||logtake.weidian.com^
 ||weidianyuedu.com^
+||1.weiheshidai.com^
 ||xingpai.weilay.com.cn^
 ||ads.weilitoutiao.net^
 ||weiluyan.cn^
@@ -5417,6 +5426,7 @@
 ||wewbnso.cn^
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
+||wftyehw.cn^
 ||redir.wggames.cn^
 ||www.whalecloud.com^
 ||whytd.com^
