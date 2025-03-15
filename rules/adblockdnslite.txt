@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250315161445
-! Last modified: 2025/03/15 16:14:45
-! Blocked domains: 6509
+! Version: 20250316001334
+! Last modified: 2025/03/16 00:13:34
+! Blocked domains: 6498
 ! unBlocked domains: 15
 !
 ||kwcdn.000dn.com^
@@ -60,7 +60,6 @@
 ||js1.122cha.com^
 ||ad.12306.cn^
 ||m.1234567.com.cn^
-||www.12377.cn^
 ||123cha.com^
 ||uimg.123hala.com^
 ||123juzi.com^
@@ -306,7 +305,6 @@
 ||r01.3dwwwgame.com^
 ||gostat.3g.cn^
 ||goupdate.3g.cn^
-||imupdate.3g.cn^
 ||acc.3gbizhi.com^
 ||uu1.3gu.com^
 ||engage.3m.com.cn^
@@ -588,7 +586,6 @@
 ||cenmedia.acspubs.org^
 ||connect.acspubs.org^
 ||eloqua.acspubs.org^
-||images.acspubs.org^
 ||library.acspubs.org^
 ||preferences.acspubs.org^
 ||pubstr.acspubs.org^
@@ -894,7 +891,6 @@
 ||aomeng.net^
 ||aoqinglv.cn^
 ||us-behavior.apitd.net^
-||us-fp.apitd.net^
 ||app-analytics-services.com^
 ||app-measurement.com^
 ||mobile.appchina.com^
@@ -1516,7 +1512,6 @@
 ||pcmactivity.chinacloudsites.cn^
 ||adpic.chinadaily.com.cn^
 ||same.chinadaily.com.cn^
-||usercollection.chinadaily.com.cn^
 ||sdkoptedge.chinanetcenter.com^
 ||adq.chinaso.com^
 ||a2put.chinaz.com^
@@ -1988,7 +1983,6 @@
 ||stat.ea3w.com^
 ||eabvmue.cn^
 ||eagle-tex.cn^
-||activation.easeus.com^
 ||track.easeus.com^
 ||easou.com^
 ||mini.eastday.com^
@@ -2007,7 +2001,6 @@
 ||easytomessage.com^
 ||ebgwdon.cn^
 ||eblnzoq.cn^
-||gw-dana.ebuckler.com^
 ||ebwonro.cn^
 ||jb.ecar168.cn^
 ||eclicks.cn^
@@ -2178,7 +2171,6 @@
 ||vs.funshion.com^
 ||rt.funshion.net^
 ||stat.funshion.net^
-||collect.futufin.com^
 ||trk.futureelectronics.cn^
 ||fwlrv.cn^
 ||fwmbjrl.cn^
@@ -2637,7 +2629,6 @@
 ||log.appstore3.huan.tv^
 ||monitor-ads-test.huan.tv^
 ||service.changhong.upgrade2.huan.tv^
-||tclicon5.ifmis.huan.tv^
 ||hy.huangye88.com.cn^
 ||hy.huangye88.net^
 ||17.huanqiu.com^
@@ -4334,7 +4325,6 @@
 ||mta.qq.com^
 ||mtrace.qq.com^
 ||news-l.play.ott.video.qq.com^
-||news.mpush.qq.com^
 ||oimsgad.qq.com^
 ||omgid.qq.com^
 ||omgmta.play.ott.video.qq.com^
@@ -4678,13 +4668,13 @@
 ||click.uve.mobile.sina.cn^
 ||cre-dp.sina.cn^
 ||cre.dp.sina.cn^
+||dmp.sina.cn^
 ||gk.sina.cn^
 ||log.sina.cn^
 ||log2.sina.cn^
 ||mixer.sina.cn^
 ||mixers.sina.cn^
 ||pay.mobile.sina.cn^
-||r.dmp.sina.cn^
 ||sa.sina.cn^
 ||sax.sina.cn^
 ||sdkapp.mobile.sina.cn^
@@ -5305,7 +5295,6 @@
 ||twjsx.cn^
 ||tb.code.twyxi.com^
 ||twzui6.com^
-||livetech.shopee.co.id.txlivecdn.com^
 ||txscn.cn^
 ||tyawwj.cn^
 ||www.tz-dsp.com^
