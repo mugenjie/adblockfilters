@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250803161757
-# Last modified: 2025/08/03 16:17:57
-# Blocked domains: 5569
+# Version: 20250804001628
+# Last modified: 2025/08/04 00:16:28
+# Blocked domains: 5564
 #
 local=/kwflvcdn.000dn.com/
 local=/00xvppy.cn/
@@ -448,7 +448,6 @@ local=/log.9wuli.com/
 local=/9xxy.icu/
 local=/a2wx.icu/
 local=/telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn/
-local=/telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn/
 local=/a32a.com.cn/
 local=/a48505.cn/
 local=/a9v8.cn/
@@ -1038,7 +1037,6 @@ local=/bpucniest.com/
 local=/bpztsxx.com/
 local=/bqyvip.cn/
 local=/brjwm.cn/
-local=/brt-it.website/
 local=/bsbaswq.cn/
 local=/a.bshu.com/
 local=/bswsmlp.cn/
@@ -4038,7 +4036,6 @@ local=/theta.sogoucdn.com/
 local=/ad.sohu.com/
 local=/ads.sohu.com/
 local=/api.danmu.tv.sohu.com/
-local=/api.tv.sohu.com/
 local=/assp.sohu.com/
 local=/changyan.sohu.com/
 local=/corp.sohu.com/
@@ -4220,7 +4217,6 @@ local=/adashx4id.ut.taobao.com/
 local=/adashx4sg.ut.taobao.com/
 local=/adashx4yt.m.taobao.com/
 local=/adashxgc.ut.taobao.com/
-local=/ae-alimelog.taobao.com/
 local=/agoodm.m.taobao.com/
 local=/ai.taobao.com/
 local=/ai.m.taobao.com/
@@ -5331,7 +5327,6 @@ local=/ys630.com/
 local=/ad-material.ys7.com/
 local=/ysqlmpo.cn/
 local=/www.yuanchengxiezuo.com/
-local=/clog.yuanfudao.com/
 local=/yuanlin15.cn/
 local=/overseauspider.yuanshen.com/
 local=/ads.reader.yueyouxs.com/
