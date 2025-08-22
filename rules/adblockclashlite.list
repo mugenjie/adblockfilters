@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250822161831
-# Last modified: 2025/08/22 16:18:31
-# Blocked domains: 6344
+# Version: 20250823001552
+# Last modified: 2025/08/23 00:15:52
+# Blocked domains: 6340
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -89,7 +89,6 @@ DOMAIN-SUFFIX,countly.mail.163.com,REJECT-DROP
 DOMAIN-SUFFIX,crash.163.com,REJECT-DROP
 DOMAIN-SUFFIX,crashlytics.163.com,REJECT-DROP
 DOMAIN-SUFFIX,e-p4p.163.com,REJECT-DROP
-DOMAIN-SUFFIX,fa.163.com,REJECT-DROP
 DOMAIN-SUFFIX,fp-upload.dun.163.com,REJECT-DROP
 DOMAIN-SUFFIX,g.163.com,REJECT-DROP
 DOMAIN-SUFFIX,g1.163.com,REJECT-DROP
@@ -373,7 +372,6 @@ DOMAIN-SUFFIX,www.805m.com,REJECT-DROP
 DOMAIN-SUFFIX,m1.81312.com,REJECT-DROP
 DOMAIN-SUFFIX,8181zx.com,REJECT-DROP
 DOMAIN-SUFFIX,8684.com,REJECT-DROP
-DOMAIN-SUFFIX,878997.com,REJECT-DROP
 DOMAIN-SUFFIX,88362zubo95838.com,REJECT-DROP
 DOMAIN-SUFFIX,888bb555ww.com,REJECT-DROP
 DOMAIN-SUFFIX,888bb666cc.com,REJECT-DROP
@@ -5785,7 +5783,6 @@ DOMAIN-SUFFIX,t2.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,t3.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,t4.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,t5.market.xiaomi.com,REJECT-DROP
-DOMAIN-SUFFIX,t7.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,thm.market.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,tz.sec.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,video.market.xiaomi.com,REJECT-DROP
@@ -5935,7 +5932,6 @@ DOMAIN-SUFFIX,yatemy.cn,REJECT-DROP
 DOMAIN-SUFFIX,ycsshb.cn,REJECT-DROP
 DOMAIN-SUFFIX,ydgsvls.cn,REJECT-DROP
 DOMAIN-SUFFIX,kl.yditweb.cn,REJECT-DROP
-DOMAIN-SUFFIX,adpublish.ydstatic.com,REJECT-DROP
 DOMAIN-SUFFIX,oimagea2.ydstatic.com,REJECT-DROP
 DOMAIN-SUFFIX,bdm.ye-su.cn,REJECT-DROP
 DOMAIN-SUFFIX,ir.mail.yeah.net,REJECT-DROP
