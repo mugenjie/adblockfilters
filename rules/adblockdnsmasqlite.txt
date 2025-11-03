@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251103001426
-# Last modified: 2025/11/03 00:14:26
-# Blocked domains: 6884
+# Version: 20251103090435
+# Last modified: 2025/11/03 09:04:35
+# Blocked domains: 6890
 #
 local=/kwflvcdn.000dn.com/
 local=/00xvppy.cn/
@@ -347,6 +347,7 @@ local=/ad-drs-ipv6.52qumao.com/
 local=/api-adx.52qumao.com/
 local=/adm.52swine.com/
 local=/slzs.52xiyou.com/
+local=/api.52youtu.com/
 local=/52z.com/
 local=/a.52zxw.com/
 local=/53kf.com/
@@ -2101,6 +2102,7 @@ local=/vpass-jp.exvyn.cn/
 local=/ad.exyws.org/
 local=/veepai-device-log.eye4.cn/
 local=/www3-vpass.ezdtf.cn/
+local=/qp.ezfxpuo.cn/
 local=/g.f11w.com/
 local=/sccdn.f2zd.com/
 local=/g.f5gh.com/
@@ -2379,6 +2381,7 @@ local=/adservice.google.com/
 local=/pagead-googlehosted.l.google.com/
 local=/ssl-google-analytics.l.google.com/
 local=/www-google-analytics.l.google.com/
+local=/www-googletagmanager.l.google.com/
 local=/googleadservices-cn.com/
 local=/googleadservices.com/
 local=/googleanalytics.com/
@@ -2694,6 +2697,7 @@ local=/hsrgnac.cn/
 local=/hstpnetwork.com/
 local=/g.hsw.cn/
 local=/hswfj.cn/
+local=/hsych.com/
 local=/ht55.cn/
 local=/htkaoyan.com/
 local=/httpdns.pro/
@@ -4013,6 +4017,7 @@ local=/nhjsw.cn/
 local=/nhscv.cn/
 local=/analytics.nike.com.cn/
 local=/nimaxrv.cn/
+local=/down.nishuoa.com/
 local=/nisihu.com.cn/
 local=/taobao.niucha.ren/
 local=/p.niudashu.com/
@@ -5285,6 +5290,7 @@ local=/amdcopen.m.taobao.com/
 local=/audid-api.taobao.com/
 local=/audid-api-sg.taobao.com/
 local=/baichuan-sdk.taobao.com/
+local=/c-adash.m.taobao.com/
 local=/click.tz.simba.taobao.com/
 local=/dsp.simba.taobao.com/
 local=/eco.taobao.com/
@@ -5304,6 +5310,7 @@ local=/huodong.m.taobao.com/
 local=/hybrid.miniapp.taobao.com/
 local=/ip.taobao.com/
 local=/ju.taobao.com/
+local=/m-adash.m.taobao.com/
 local=/m.simba.taobao.com/
 local=/mamasearchad.cloudvideocdn.taobao.com/
 local=/mclick.simba.taobao.com/
@@ -5638,7 +5645,6 @@ local=/rescn.u3.ucweb.com/
 local=/safe.ucweb.com/
 local=/sea.napi.ucweb.com/
 local=/sg.napi.ucweb.com/
-local=/slot.union.ucweb.com/
 local=/uc.ucweb.com/
 local=/uc9.ucweb.com/
 local=/ucads.ucweb.com/
@@ -6256,7 +6262,6 @@ local=/cdn.exp.xiaomi.com/
 local=/cdn.fds.api.xiaomi.com/
 local=/controller.india.xiaomi.com/
 local=/data.game.xiaomi.com/
-local=/data.mistat.xiaomi.com/
 local=/data.mistat.intl.xiaomi.com/
 local=/de.pandora.xiaomi.com/
 local=/dvb.pandora.xiaomi.com/
@@ -6616,6 +6621,7 @@ local=/yoyi.tv/
 local=/analysis.yozocloud.cn/
 local=/ad-material.ys7.com/
 local=/adx.ys7.com/
+local=/log.ys7.com/
 local=/stats.ys7.com/
 local=/ysdqww.com/
 local=/ysjwj.com/
