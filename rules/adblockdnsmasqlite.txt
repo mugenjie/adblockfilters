@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251104001627
-# Last modified: 2025/11/04 00:16:27
-# Blocked domains: 6903
+# Version: 20251104090153
+# Last modified: 2025/11/04 09:01:53
+# Blocked domains: 6900
 #
 local=/kwflvcdn.000dn.com/
 local=/00xvppy.cn/
@@ -1728,6 +1728,7 @@ local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
 local=/sgtm.darryring.com/
+local=/clickserve.dartsearch.net/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1946,7 +1947,6 @@ local=/dotcounter.douyutv.com/
 local=/fintech.downyi.cn/
 local=/dpjzzgw.cn/
 local=/drdwy.com/
-local=/drivethelife.com/
 local=/dspunion.com/
 local=/analytics.dsyqt.com/
 local=/dt0j.icu/
@@ -2702,7 +2702,6 @@ local=/hsrgnac.cn/
 local=/hstpnetwork.com/
 local=/g.hsw.cn/
 local=/hswfj.cn/
-local=/hsych.com/
 local=/ht55.cn/
 local=/htkaoyan.com/
 local=/httpdns.pro/
@@ -4025,7 +4024,6 @@ local=/nhscv.cn/
 local=/analytics.nike.com.cn/
 local=/nimaxrv.cn/
 local=/ninebox.cn/
-local=/down.nishuoa.com/
 local=/nisihu.com.cn/
 local=/taobao.niucha.ren/
 local=/p.niudashu.com/
@@ -6637,7 +6635,6 @@ local=/yoyi.tv/
 local=/analysis.yozocloud.cn/
 local=/ad-material.ys7.com/
 local=/adx.ys7.com/
-local=/log.ys7.com/
 local=/stats.ys7.com/
 local=/ysdqww.com/
 local=/ysjwj.com/
